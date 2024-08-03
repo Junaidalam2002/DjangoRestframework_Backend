@@ -3,6 +3,6 @@ from .views import DataViewset
 
 
 urlpatterns = [
-    path('api/', DataViewset.as_view()),
-    path('api/<int:id>', DataViewset.as_view())
+    path('data/', DataViewset.as_view()),
+    path('data/<int:id>', DataViewset.as_view())
 ]
